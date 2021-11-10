@@ -36,6 +36,11 @@ spring:
     show-sql: 'true'
 welcome:
   message: Bon jorno
+managment:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
 
 ---
 
